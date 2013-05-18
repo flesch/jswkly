@@ -4,4 +4,4 @@ I love [Javascript Weekly](http://javascriptweekly.com/), but sometimes I just w
 
 This scrapes the [/archive](http://javascriptweekly.com/archive) page and redirects to the newest issue.
 
-[http://jswkly.flesch.c9.io/](http://jswkly.flesch.c9.io/)
+[http://jswkly.fles.ch/](http://jswkly.fles.ch/)
