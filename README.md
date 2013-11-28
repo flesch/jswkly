@@ -7,7 +7,7 @@ I love [Cooper Press](https://cooperpress.com/)'s weekly email publications, but
 * [Node Weekly](http://nodeweekly.com/): [http://nodewkly.fles.ch/](http://nodewkly.fles.ch/)
 * [HTML5 Weekly](http://html5weekly.com/): [http://html5wkly.fles.ch/](http://html5wkly.fles.ch/)
 
-***Note**: This project is not related to or endorsed by [Cooper Press](https://cooperpress.com/).*
+**Note**: This project is not related to or endorsed by [Cooper Press](https://cooperpress.com/).
 
 
 ## License
