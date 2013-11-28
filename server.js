@@ -3,10 +3,10 @@ var http = require("http")
   , url = require("url")
   , jsdom = require("jsdom")
   ;
-    
+
 var server = http.createServer(function (request, response) {
   var hostname = url.parse(util.format("http://%s", request.headers.host)).hostname
-    , weekly = (hostname !== "localhost") ? hostname.replace(/^js/, "javascript").replace(/wkly/, "weekly") : "javascriptweekly";
+    , weekly = (/wkly/.test(hostname)) ? /.*wkly/.exec(hostname).shift().replace(/js/, "javascript").replace(/wkly/, "weekly") : "javascriptweekly";
   jsdom.env(util.format("http://%s.com/archive/", weekly), function(errors, window) {
     var archives = window.document.getElementsByTagName("a").length - 1
       , redirect = util.format("http://%s.com/archive/%s.html", weekly, archives);
