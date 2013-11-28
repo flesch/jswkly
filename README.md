@@ -1,11 +1,14 @@
 
 # wkly
 
-I love [Cooper Press](https://cooperpress.com/)'s weekly email publications, but often I want to read it in my browser. This project scrapes the [/archive](http://javascriptweekly.com/archive) of a publication and redirects to the newest issue.
+I love [Cooper Press](https://cooperpress.com/)'s weekly email publications, but often I want to read them in my browser. This project scrapes the [/archive](http://javascriptweekly.com/archive) of a publication and redirects to the newest issue.
 
 * [Javascript Weekly](http://javascriptweekly.com/): [http://jswkly.fles.ch/](http://jswkly.fles.ch/)
 * [Node Weekly](http://nodeweekly.com/): [http://nodewkly.fles.ch/](http://nodewkly.fles.ch/)
 * [HTML5 Weekly](http://html5weekly.com/): [http://html5wkly.fles.ch/](http://html5wkly.fles.ch/)
+* [Ruby Weekly](http://rubyweekly.com/): [http://rubywkly.fles.ch/](http://rubywkly.fles.ch/)
+* [Dart Weekly](http://dartweekly.com/): [http://dartwkly.fles.ch/](http://dartwkly.fles.ch/)
+* [Postgres Weekly](http://postgresweekly.com/): [http://postgreswkly.fles.ch/](http://postgreswkly.fles.ch/)
 
 **Note**: This project is not related to or endorsed by [Cooper Press](https://cooperpress.com/).
 
