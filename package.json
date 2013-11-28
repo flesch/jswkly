@@ -1,7 +1,7 @@
 {
-  "name": "jswkly",
-  "version": "0.0.1",
-  "description": "Jump to the latest Javascript Weekly issue.",
+  "name": "wkly",
+  "version": "0.0.2",
+  "description": "Jump to the latest Cooper Press weekly issue.",
   "main": "server.js",
   "dependencies": {
     "jsdom": "~0.6.5"
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/flesch/jswkly.git"
+    "url": "git://github.com/flesch/wkly.git"
   },
   "author": "John Flesch <john@fles.ch>",
   "license": "MIT",
