@@ -4,7 +4,7 @@
   "description": "Jump to the latest Javascript Weekly issue.",
   "main": "server.js",
   "dependencies": {
-    "jsdom": "~0.6.0"
+    "jsdom": "~0.6.5"
   },
   "devDependencies": {},
   "scripts": {
