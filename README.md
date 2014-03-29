@@ -1,3 +1,8 @@
+![1396079036_skull-crossbones-icon](https://cloud.githubusercontent.com/assets/13259/2557014/0ca2b3ba-b6ec-11e3-8b19-365dc7ff8238.png)
+
+*This project is out of date and is no longer working.*
+
+---
 
 # wkly
 
