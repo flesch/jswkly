@@ -1,12 +1,6 @@
-![1396079036_skull-crossbones-icon](https://cloud.githubusercontent.com/assets/13259/2557014/0ca2b3ba-b6ec-11e3-8b19-365dc7ff8238.png)
-
-*This project is out of date and is no longer working.*
-
----
-
 # wkly
 
-I love [Cooper Press](https://cooperpress.com/)'s weekly email publications, but often I want to read them in my browser. This project scrapes the [/archive](http://javascriptweekly.com/archive) of a publication and redirects to the newest issue.
+I love [Cooper Press](https://cooperpress.com/)'s weekly email publications, but often I want to read them in my browser. This project scrapes the [/issues](http://javascriptweekly.com/issues) of a publication and redirects to the newest issue.
 
 * [Javascript Weekly](http://javascriptweekly.com/): [http://jswkly.fles.ch/](http://jswkly.fles.ch/)
 * [Node Weekly](http://nodeweekly.com/): [http://nodewkly.fles.ch/](http://nodewkly.fles.ch/)
