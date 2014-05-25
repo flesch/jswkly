@@ -1,18 +1,20 @@
 var http = require("http")
   , util = require("util")
   , url = require("url")
-  , jsdom = require("jsdom")
+  , request = require('request')
+  , cheerio = require('cheerio')
   ;
 
-var server = http.createServer(function (request, response) {
-  var hostname = url.parse(util.format("http://%s", request.headers.host)).hostname
+var server = http.createServer(function(req, res){
+  var hostname = url.parse(util.format("http://%s", req.headers.host)).hostname
     , weekly = (/wkly/.test(hostname)) ? /.*wkly/.exec(hostname).shift().replace(/js/, "javascript").replace(/wkly/, "weekly") : "javascriptweekly";
-  jsdom.env(util.format("http://%s.com/archive/", weekly), function(errors, window) {
-    var archives = window.document.getElementsByTagName("a").length - 1
-      , redirect = util.format("http://%s.com/archive/%s.html", weekly, archives);
-    response.writeHead(307, {"Content-Length":redirect.length, "Content-Type":"text/plain", "Location":redirect });    
-    response.end(redirect);
+  request(util.format("http://%s.com/issues", weekly), function (error, response, body){
+    var $ = cheerio.load(body)
+      , issue = $('li.issue a[href^="issues/"]').length
+      , redirect = util.format("http://%s.com/issues/%s", weekly, issue);
+    res.writeHead(307, {"Content-Length":redirect.length, "Content-Type":"text/plain", "Location":redirect });
+    res.end(redirect);
   });
 });
 
-server.listen(process.env.PORT, process.env.IP);
+server.listen(process.env.PORT || 5000, process.env.IP);
