@@ -1,3 +1,5 @@
+> **Note**: Cooper Press now has a `/latest` URL for each publication (e.g. <http://javascriptweekly.com/latest>), so this project has been deprecated.
+
 # wkly
 
 I love [Cooper Press](https://cooperpress.com/)'s weekly email publications, but often I want to read them in my browser. This project scrapes the [/issues](http://javascriptweekly.com/issues) of a publication and redirects to the newest issue.
